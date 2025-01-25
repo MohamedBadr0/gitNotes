@@ -1,4 +1,4 @@
-## ** 1 ==> create a repo on github **
+## step 1: create a repo on github
 
 ### How Git actually works:
 ```
@@ -23,12 +23,13 @@ git log                         ==> see logs of files
 git log --oneline
 git log --oneline --graph --decorate --all
 
-git remote -v                   ==> get remote remoteRepo
- 
-git push <remoteName> <branchName>      ==> from localRepo to remoteRepo
+git remote -v                               ==> get remote remoteRepo
+git remote add origin <remoteRepo url>      ==> add url to push
+
+git push <remoteName> <branchName>          ==> from localRepo to remoteRepo
 git push -u origin master
 
-git pull <remoteName>                   ==> from remoteRepoRepo to localRepo
+git pull <remoteName>                       ==> from remoteRepoRepo to localRepo
 git pull origin
 
 
